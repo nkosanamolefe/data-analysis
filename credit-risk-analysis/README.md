@@ -32,4 +32,8 @@ Dataset provided by Nova Bank, contains over 32k individual loan records, each d
 
 **<h2 align="center">Insights Deep-Dive</h2>**
 
+**<h3 align="center">Borrower Risk Profile</h3>**
+**<h3 align="center">Loan Characteristics Analysis</h3>**
+**<h3 align="center">Early Warning Indicators</h3>**
+
 **<h2 align="center">Recommendations</h2>**
