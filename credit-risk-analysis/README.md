@@ -1,6 +1,6 @@
-**# Credit Risk Report**
+# Credit Risk Report
 
-**## Client Background**
+## **Client Background**
 
 Nova Bank is a diversified financial institution providing a range of loan products—including personal, medical, education, and business loans across the United States, United Kingdom, and Canada. The bank's primary objective is to balance fair and accessible lending with robust risk management. In the current economic climate of late 2025, with rising interest rates, precise and dynamic risk assessment is more critical than ever to maintain a healthy and competitive lending portfolio.
 
@@ -8,7 +8,7 @@ Nova Bank's key challenge is to optimize its lending decisions. Overly permissiv
 
 Nortstar Metrics
 
-**## Executive Summary**
+## **Executive Summary**
 
 This analysis of Nova Bank's $312.43 million loan portfolio, comprising 33,000 loans, reveals a significant credit risk exposure, with an overall **default rate of 21.82%** by loan count and a **financial loss rate of 24.69%**, amounting to over **$77 million in defaulted loan value**. Our findings indicate that credit risk is not evenly distributed across the portfolio; rather, it is highly concentrated and predictable based on specific loan and borrower characteristics.
 
@@ -26,26 +26,26 @@ This analysis of Nova Bank's $312.43 million loan portfolio, comprising 33,000 l
 *   **Price Risk According to Loan Purpose:** Adjust risk models and pricing to account for the higher default rates associated with Debt Consolidation and Medical loans.
 *   **Focus on Borrower-Centric Risk Factors:** Since geography is not a strong risk driver, resources should be focused on refining the assessment of individual borrower financial health, such as debt-to-income ratios and credit history, which are likely stronger predictors.
 
-**## Dataset**
+## **Dataset**
 
 Dataset provided by Nova Bank, contains over 32k individual loan records, each described by over 35 distinct fields. These fields encompass a comprehensive range of information, including borrower profile, loan characteristics (purpose, amount, grade), and key financial health indicators such as debt-to-income ratios and credit history.
 
-**## Insights Deep-Dive**
+## **Insights Deep-Dive**
 
-**### Borrower Risk Profile**
+###  **Borrower Risk Profile**
 
 An analysis of borrower demographic and behavioral patterns reveals distinct profiles that correlate strongly with the likelihood of default. While some traditional risk indicators hold true, others present surprising nuances.
 
 image
 
-#### Age and Income: A Critical Interplay
+#### **Age and Income: A Critical Interplay**
 
 The analysis pinpoints low-income brackets as the primary source of portfolio risk.
 *   **The Low-Income Hazard Zone:** Individuals earning less than $25,000 per year consistently have the highest default rates across all age groups, frequently exceeding 50%. The **45-54 age bracket in this income group is particularly vulnerable, with a default rate of 60.98%**.
 *   **Income as a Mitigating Factor:** As income increases, default rates generally and significantly decrease. For most age groups, reaching an income level of $50k-$100k cuts the default risk by more than half compared to the lowest bracket.
 *   **A Note on Younger High-Earners:** An interesting anomaly exists for the 25-34 age group, where the default rate for those earning over $500k (18.75%) is higher than for those earning $200k-$500k (13.43%). This may suggest lifestyle inflation or business-related volatility among young, high-income individuals.
 
-#### Credit History: Experience Reduces Risk, But With Nuances
+#### **Credit History: Experience Reduces Risk, But With Nuances**
 
 The length of a borrower's credit history provides a clear, albeit nuanced, picture of their risk profile.
 
@@ -60,7 +60,7 @@ Home ownership status is the single most powerful demographic predictor of repay
 *   **High Risk:** Borrowers who **rent** or fall into the **"Other"** category exhibit exceptionally high default rates of **32% and 31%**, respectively. These groups represent a significantly higher risk to the portfolio.
 *   **Low Risk:** In contrast, **homeowners (7%)** and those with a **mortgage (13%)** are substantially more reliable. The default rate for outright owners is over four times lower than for renters, suggesting that property ownership serves as a strong proxy for financial stability and commitment
 
-**### Loan Characteristics Analysis**
+### **Loan Characteristics Analysis**
 
 Beyond the borrower's profile, the inherent characteristics of the loan itself—its grade, size relative to income, interest rate, purpose, and term—are critical drivers of portfolio risk. This analysis reveals that how a loan is structured is a powerful predictor of its performance, providing clear levers for Nova Bank to adjust its lending strategy.
 
@@ -99,6 +99,6 @@ Contrary to the common belief that longer terms always equal higher risk, the da
 *   **Short-Term Stability:** 12-month (Short) loans have the lowest default rate (around 20%). These are likely smaller, more manageable loans that are easier to repay quickly.
 *   **The Surprising 24-Month Spike:** The default rate unexpectedly jumps for 24-month loans before declining for 36-month terms and then rising again for 60-month (Long) terms. This could indicate that 24-month terms are occupied by a riskier pool of borrowers who do not qualify for either very short or longer-term financing.
 
-**###Early Warning Indicators**
+### **Early Warning Indicators**
 
-**## Recommendations**
+## **Recommendations**
