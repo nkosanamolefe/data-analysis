@@ -101,4 +101,14 @@ Contrary to the common belief that longer terms always equal higher risk, the da
 
 ### **Early Warning Indicators**
 
+Proactive risk management is critical to reducing financial losses. By combining key behavioral and financial metrics, we have developed a model to identify borrowers exhibiting early signs of financial distress. This system has currently flagged **122 active accounts** as "High-Risk Profiles" that require immediate attention.
+
+An analysis of these flagged accounts reveals a consistent and alarming pattern of three key indicators:
+
+1.  **Prior Delinquency is a Universal Red Flag:** **100% of the borrowers** on this high-risk list have a history of at least one delinquency. This is the single most powerful early warning sign, indicating a breakdown in their ability to manage existing financial commitments.
+
+2.  **Extreme Credit Utilization:** These borrowers are heavily reliant on revolving credit. The average **Credit Utilization Ratio (CUR) for this group is over 80%** (e.g., CUST_00369 at 93.72%, CUST_00131 at 94.10%). A CUR this high signals that the individual has nearly exhausted their available credit and has little to no financial flexibility to handle unexpected expenses.
+
+3.  **Unsustainable Debt Burden:** The **Debt-to-Income (DTI) ratios are consistently high**, frequently exceeding 0.60 (60%). For instance, CUST_00131 has a DTI of 0.81. This indicates that a large majority of the borrower's income is already dedicated to servicing existing debt, leaving a very slim margin for new loan repayments.
+
 ## **Recommendations**
