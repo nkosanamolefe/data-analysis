@@ -10,9 +10,13 @@ Nortstar Metrics
 
 ## **Executive Summary**
 
+![Executive KPI](images/executive-summary-kpi.png)
+
 This analysis of Nova Bank's $312.43 million loan portfolio, comprising 33,000 loans, reveals a significant credit risk exposure, with an overall **default rate of 21.82%** by loan count and a **financial loss rate of 24.69%**, amounting to over **$77 million in defaulted loan value**. Our findings indicate that credit risk is not evenly distributed across the portfolio; rather, it is highly concentrated and predictable based on specific loan and borrower characteristics.
 
 **Key Findings:**
+
+![Executive KPI](images/executive-summary.png)
 
 1.  **Credit Grade is the Primary Indicator of Risk:** The bank's internal credit grading system is a powerful predictor of loan performance. While Grade A loans have a manageable default rate, risk escalates dramatically with lower grades. **Grade D represents a critical tipping point**, where the number of defaults (2.1K) exceeds performing loans (1.49K), indicating an extremely high probability of loss for this segment and below.
 
