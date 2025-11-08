@@ -24,12 +24,6 @@ This analysis of Nova Bank's $312.43 million loan portfolio, comprising 33,000 l
 
 3.  **Geographic Location is Not a Major Differentiator:** Despite operating across multiple cities in the USA, UK, and Canada, the analysis shows that default risk is remarkably consistent, with rates clustering tightly between **20% and 25% across all major cities**. This suggests that risk is driven more by borrower profiles and loan terms than by regional economic factors.
 
-**Recommendations:**
-
-*   **Tighten Underwriting for High-Risk Grades:** Immediately review and strengthen lending criteria for loans graded D and lower. Consider ceasing origination in these segments or implementing significantly higher interest rates and lower loan-to-value ratios to compensate for the inherent risk.
-*   **Price Risk According to Loan Purpose:** Adjust risk models and pricing to account for the higher default rates associated with Debt Consolidation and Medical loans.
-*   **Focus on Borrower-Centric Risk Factors:** Since geography is not a strong risk driver, resources should be focused on refining the assessment of individual borrower financial health, such as debt-to-income ratios and credit history, which are likely stronger predictors.
-
 ## **Dataset**
 
 Dataset provided by Nova Bank, contains over 32k individual loan records, each described by over 35 distinct fields. These fields encompass a comprehensive range of information, including borrower profile, loan characteristics (purpose, amount, grade), and key financial health indicators such as debt-to-income ratios and credit history.
@@ -116,6 +110,13 @@ An analysis of these flagged accounts reveals a consistent and alarming pattern 
 3.  **Unsustainable Debt Burden:** The **Debt-to-Income (DTI) ratios are consistently high**, frequently exceeding 0.60 (60%). For instance, CUST_00131 has a DTI of 0.81. This indicates that a large majority of the borrower's income is already dedicated to servicing existing debt, leaving a very slim margin for new loan repayments.
 
 ## **Recommendations**
+
+**Recommendations:**
+
+*   **Tighten Underwriting for High-Risk Grades:** Immediately review and strengthen lending criteria for loans graded D and lower. Consider ceasing origination in these segments or implementing significantly higher interest rates and lower loan-to-value ratios to compensate for the inherent risk.
+*   **Price Risk According to Loan Purpose:** Adjust risk models and pricing to account for the higher default rates associated with Debt Consolidation and Medical loans.
+*   **Focus on Borrower-Centric Risk Factors:** Since geography is not a strong risk driver, resources should be focused on refining the assessment of individual borrower financial health, such as debt-to-income ratios and credit history, which are likely stronger predictors.
+
 
 ##  **Borrower Risk Profile**
 
