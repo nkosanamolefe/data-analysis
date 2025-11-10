@@ -12,8 +12,6 @@ Nortstar Metrics
 
 This report presents a comprehensive credit risk analysis of Nova Bank's $312 million loan portfolio. The analysis reveals a significant **portfolio-wide default rate of 21.82%**, resulting in over **$77 million in defaulted loan value**. The findings indicate that this risk is not uniformly distributed but is highly concentrated within specific, identifiable borrower segments and loan structures.
 
-This analysis of Nova Bank's $312.43 million loan portfolio, comprising 33,000 loans, reveals a significant credit risk exposure, with an overall **default rate of 21.82%** by loan count and a **financial loss rate of 24.69%**, amounting to over **$77 million in defaulted loan value**. Our findings indicate that credit risk is not evenly distributed across the portfolio; rather, it is highly concentrated and predictable based on specific loan and borrower characteristics.
-
 **Key Findings:**
 
 1.  **A Clear Profile of the High-Risk Borrower Has Emerged.** Default is heavily concentrated among borrowers with specific demographic and behavioral traits. The most powerful predictors are **home ownership status** (renters default at over 4 times the rate of owners) and **low income** (individuals earning under $25k, particularly those aged 45-61, have default rates exceeding 60%). A history of even **one past delinquency** dramatically increases the probability of future default. Conversely, factors like employment type and geographic location show minimal correlation with risk.
