@@ -110,8 +110,6 @@ The 122 identified borrowers are not defined by a single metric but by a powerfu
 
 ## **Recommendations**
 
-### **Strategic Recommendations**
-
 Based on the comprehensive analysis of borrower profiles, loan characteristics, and early warning indicators, we recommend Nova Bank implement a three-pronged strategic approach to fundamentally strengthen its credit risk framework. These actions are designed to reduce financial losses, enhance portfolio quality, and foster more responsible and sustainable lending practices.
 
 #### **1. Strategic Overhaul of Underwriting and Risk Assessment**
